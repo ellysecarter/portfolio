@@ -1,0 +1,270 @@
+
+
+body {
+    color: var(--tertiary-color);
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    background-color: cornsilk;
+}
+
+/* apply styles to <header> */
+
+header {
+    padding: 20px 35px; 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: black;
+    align-content: right;
+    color: grey;
+    background-color: teal;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    color: teal;
+    font-size: 1.55vw;
+    border-bottom: teal;
+    text-decoration: underline 4px;
+    text-underline-offset: 8px;
+    text-decoration-color: teal ;
+    /* need to figure out how to get underline longer than text */
+}
+
+.hero {
+    background-image: url(https://cdn.hovia.com/app/uploads/deep-blue-brick-wall-mural-plain-820x532.jpg);
+    padding: 20px;
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; */
+}
+
+.hero h2 {
+    text-align: right;
+}
+
+.hero p {
+    text-align: right;
+}
+
+/* FOOTER */
+
+footer {
+    background: var(--primary-color);
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer h3 {
+    color: var(--secondary-color);
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+footer div {
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: var(--secondary-color);
+}
+
+
+
+  .contact {
+      background: var(--secondary-color);
+  }
+
+  .contact h2 {
+      color: var(--primary-color);
+  }
+
+  .contact-info {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+
+  .contact-info > * {
+      flex: 1;
+      margin: 15px;
+  }
+
+  .contact-info iframe {
+      height: 400px;
+  }
+
+  .contact-info div {
+    color: white;
+  }
+
+  .contact-info h3 {
+    color: var(--primary-color);
+    font-size: 32px;
+  }
+  
+  .contact-info p,
+  .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
+  }
+  
+  .contact-info a {
+    color: var(--primary-color);
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+      border: 1px solid var(--secondary-color);
+      display: block;
+      padding: 7px 15px;
+      font-size: 16px;
+      color: var(--secondary-color);
+      width: 100%;
+      margin-bottom: 15px;
+      margin-top: 5px;
+      border-radius: 10px;
+      background-color: rgba(255,255,255, 0.75);
+      outline: none;
+  }
+
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    background-color: rgba(255,255,255, 1);
+  }
+
+  .contact-form button {
+      width: 100%;
+      border: none;
+      color: var(--secondary-color);
+      background: var(--primary-color);
+      text-align: center;
+      padding: 15px 0;
+      font-size: 16px;
+      border-radius: 10px;
+  }
+
+  .contact-form button:hover {
+    color: var(--primary-color);
+    background: var(--tertiary-color);
+  }
+
+
+  /* UTILITIES*/
+
+  .text-left {
+      text-align: left;
+  }
+
+  .text-right {
+      text-align: right;
+  }
+
+  .flex-row {
+    display: flex;
+  }
+
+  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+  @media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+    }
+
+    header nav ul li a:hover {
+        background: var(--primary-color);
+        color: var(--secondary-color);
+        border-radius: 15px;
+        text-shadow: none;
+      }
+  
+    footer h2, footer div {
+      text-align: center;
+      width: 100%;
+    }
+
+
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+    section {
+        padding: 30px 15px;
+    }
+   
+  }
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+    .hero-form button {
+        width: 100%;
+      }
+    
+      .section-title {
+        width: 95%;
+      }
+    
+      .intro p {
+        width: 100%;
+      }
+    
+      .trainer {
+        flex: 0 100%;
+      }
+    
+      .contact-info {
+        text-align: center;
+      }
+    
+      .contact-info > * {
+        flex: 0 100%;
+      }
+
+      .contact-form {
+          order: 3;
+      }
+    }
