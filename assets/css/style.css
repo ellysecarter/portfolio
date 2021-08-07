@@ -13,7 +13,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    top: 0;
+    /* top: 0; */
 }
 
 header h1 {
@@ -25,9 +25,17 @@ header h1 {
     background-color: teal;
 }
 
+/* .name-box {
+    width: 200px;
+    height: 100px;
+    background: teal;
+    overflow: auto;
+    border-left: none;
+} */
+
 header a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: cornsilk
 }
 
 header nav {
@@ -63,21 +71,55 @@ header nav ul li a {
 
 .hero h2 {
     text-align: right;
+    color: cornsilk;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: teal;
+    flex-wrap: wrap;
 }
 
-.hero p {
+.hero h3 {
+    text-align: right;
+    color: cornsilk;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    flex-wrap: wrap;
+}
+
+
+/* left coloumn */
+.left {
+    text-align: left;
+    font-size: 40px;
+    font-display: bold;
+    color: teal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Right section */
+.info {
     text-align: right;
 }
 
 /* FOOTER */
 
-footer {
-    background: var(--primary-color);
-    width: 100%;
-    padding: 40px 35px;
+.contact-me {
+    padding: 20px 35px; 
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.resume {
+    padding: 20px 35px; 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    image-rendering: auto;
+}
+
+contact-me p {
+    size: 2px;
 }
 
 footer h3 {
@@ -85,15 +127,13 @@ footer h3 {
     font-size: 30px;
     margin: 0;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 footer div {
     line-height: 1.5;
     text-align: right;
-}
-
-footer a {
-    color: var(--secondary-color);
 }
 
 
