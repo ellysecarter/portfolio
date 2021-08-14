@@ -73,8 +73,11 @@ header nav ul li a {
     text-align: right;
     color: cornsilk;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: teal;
     flex-wrap: wrap;
+    width: 36%;
+    margin-left: 64%;
+    background-color: teal;
+    text-align: left;
 }
 
 .hero h3 {
@@ -84,7 +87,10 @@ header nav ul li a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
     flex-wrap: wrap;
+    width: 9%;
+    margin-left: 91%;
     background-color: teal;
+    text-align: left;
 }
 
 .left {
@@ -92,7 +98,14 @@ header nav ul li a {
   font-size: xx-large;
   color: teal;
   width: 20%;
-  border: 1px solid black;
+}
+
+#my-work img {
+  border: solid 6px;
+  background-color: teal;
+  max-width: 500px;
+  max-height: 500px;
+  position: absolute;
 }
 
 /* left column */
@@ -110,21 +123,37 @@ header nav ul li a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  border: 1px solid black;
   /* width: 70%; */
 }
 
 
 #my-work div section {
   font-size: 20px;
-  border: 1px solid red;
   width: 50%;
 }
 
-#surf-report {
+/* #surf-report {
   width: 100%;
   border: teal;
+} */
+
+#section-title {
+  background-color: teal;
+  color: aliceblue;
+  margin-left: auto;
+  position: absolute;
+  margin-top: 259px;
+  width: 10%;
+  text-align: right;
 }
+
+/* #section-subtitle {
+  background-color: teal;
+  color: aliceblue;
+  margin-left: auto;
+  position: absolute;
+} */
+
 
 #my-work div section p {
   font-size: 12px;
@@ -133,7 +162,7 @@ header nav ul li a {
 
 /* Right section */
 .info {
-    text-align: right;
+    /* text-align: right; */
     justify-content: space-between;
 }
 
@@ -224,7 +253,7 @@ footer div {
   }
 
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-  @media screen and (max-width: 980px) {
+  /* @media screen and (max-width: 980px) {
     header {
       padding-bottom: 0;
       justify-content: center;
@@ -261,15 +290,15 @@ footer div {
 
   
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
-  @media screen and (max-width: 768px) {
+  /* @media screen and (max-width: 768px) {
     section {
         padding: 30px 15px;
     }
    
-  }
+  } */
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-  @media screen and (max-width: 575px) {
+  /* @media screen and (max-width: 575px) {
     .hero-form button {
         width: 100%;
       }
@@ -297,4 +326,4 @@ footer div {
       .contact-form {
           order: 3;
       }
-  }
+  } */ */
