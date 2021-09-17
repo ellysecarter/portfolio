@@ -21,3 +21,16 @@
 .column {
   justify-content: space-evenly;
 }
+
+.space-evenly {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  
+}
+
+div nav ul li {
+    justify-content: space-between;
+    list-style: none;
+
+  }
