@@ -29,8 +29,28 @@
   
 }
 
-div nav ul li {
-    justify-content: space-between;
-    list-style: none;
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 
-  }
+.contactme {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.form {
+  margin-top: 40px
+}
+
+h4 {
+  font-weight: bolder;
+  text-align: center;
+}
+
+h6 {
+  text-align: center;
+}
