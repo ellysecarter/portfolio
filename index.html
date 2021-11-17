@@ -47,15 +47,6 @@
               <h4>nourishMe - Group Project</h4>
               <h6>Recipe and ingredient finder</h6>
             </div>
-          </div> 
-
-          <div class="row small-up-2 medium-up-3 large-up-4 space-evenly">
-            <div class="column-4">
-              <a href="https://asecord-connectus.herokuapp.com/" target="_blank">
-              <img src="assets/images/screenshot 2.png" alt=""></a>
-              <h4>ConnectUs - Group Project</h4>
-              <h6>A way to connect with people with similar interest</h6>
-            </div>
           </div>
 
           <div class="row small-up-2 medium-up-3 large-up-4 space-evenly">
@@ -134,7 +125,41 @@
                 <a href="https://github.com/ellysecarter" target="_blank"><img src="./assets/images/octocat/octocat.png" alt=""/></a>
               </ul>
             </div>
+
+            <!-- <div class="medium-6 columns form">
+            <form action=”mailto:ellysecarter@yahoo.com”
+            method=”POST”
+            enctype=”multipart/form-data”
+            name=”EmailForm”>
+            Name:<br>
+            <input type=”text” size=”19″ name=”ContactName”><br>
+            <br>
+            Message:<br> <textarea name=”ContactCommentt” rows=”6″ cols=”20″>
+            </textarea><br>
+            <br> <input type=”submit” class="button expanded" value=”Submit”> 
+            </form>
+            </div> -->
+
             <div class="medium-6 columns form">
+              <form action="mailto:ellysecarter@yahoo.com" method="post" enctype="text/plain">
+                <p>
+                  <label for="name">Enter Name: </label>
+                  <input type="text" name="name">
+                </p>
+                <p>
+                  <label for="email">Enter Email Address: </label>
+                  <input type="text" name="email">
+                </p>
+                <p>
+                  <label for="Message">Send me a message! </label>
+                  <textarea name="message" size="50"></textarea>
+                </p>
+                <input type="submit" class="button expanded" value="Send">
+              </form>
+            </div>
+
+
+            <!-- <div class="medium-6 columns form">
               <label>Name
                 <input type="text" placeholder="Name">
               </label>
@@ -146,7 +171,7 @@
                 <textarea placeholder="Message me!"></textarea>
               </label>
               <input type="submit" class="button expanded" value="Submit">
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
