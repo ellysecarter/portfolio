@@ -9,6 +9,7 @@
   </head>
   <body>
 
+
     <div class="off-canvas-wrapper">
       <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
 
@@ -35,21 +36,42 @@
           </div>
           <div class="callout primary">
             <div class="row column">
+              <nav>
+                <ul>
+                  <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#my-projects">My Projects</a>
+                </li>
+                <li>
+                    <a href="./groupProjects.html">Group Projects</a>
+                </li>
+                <li>
+                  <a href="https://github.com/ellysecarter" target="_blank">GitHub</a>
+              </li>
+                <li>
+                    <a href="#contact-me">Contact Me</a>
+                </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="row column">
               <h2 class="quote">"Solve a real problem and the world is yours." </h2>
               <p class="lead">-Aaron Patzer</p>
             </div>
           </div>
 
+          <section id="my-projects"></section>
           <div class="row small-up-2 medium-up-3 large-up-4 space-evenly">
-            <div class="column-4">
+
+            <div class="column">
               <a href="https://ellysecarter.github.io/nourish-me/" target="_blank">
               <img src="assets/images/screenshot2.png" alt=""></a>
               <h4>nourishMe - Group Project</h4>
               <h6>Recipe and ingredient finder</h6>
             </div>
-          </div>
 
-          <div class="row small-up-2 medium-up-3 large-up-4 space-evenly">
             <div class="column">
               <a href="https://ellysecarter.github.io/workdayassistant/" target="_blank">
               <img src="assets/images/screenshot.png" alt=""></a>
@@ -105,76 +127,79 @@
 
           <hr>
 
-          <div class="row">
-            <h3 class="contactme">Contact Me</h3>
-            <div class="medium-6 columns">
-              <nav>
-                <ul>
-                  <li class="links">
-                    <a href="mailto:ellysecarter@yahoo.com">ellysecarter@yahoo.com</a>
-                    <br>
-                    <a href="./assets/resume.pdf" target="_tab">Resume</a>
-                  </li>
+          <section id="contact-me">
+            <div class="row">
+              <h3 class="contactme">Contact Me</h3>
+              <div class="medium-6 columns">
+                <nav>
+                  <ul>
+                    <li class="links">
+                      <a href="mailto:ellysecarter@yahoo.com">ellysecarter@yahoo.com</a>
+                      <br>
+                      <a href="./assets/resume.pdf" target="_tab">Resume</a>
+                    </li>
+                  </ul>
+                </nav>
+                
+                
+                <ul class="links">
+                  <a href="https://www.linkedin.com/in/ellysecarter/" target="_blank"><img src="./assets/images/LinkedIn-Logos/linkedin.png" alt="linkedin logo"/></a>
+                  <br>
+                  <a href="https://github.com/ellysecarter" target="_blank"><img src="./assets/images/octocat/octocat.png" alt=""/></a>
                 </ul>
-              </nav>
-              
-              
-              <ul class="links">
-                <a href="https://www.linkedin.com/in/ellysecarter/" target="_blank"><img src="./assets/images/LinkedIn-Logos/linkedin.png" alt="linkedin logo"/></a>
-                <br>
-                <a href="https://github.com/ellysecarter" target="_blank"><img src="./assets/images/octocat/octocat.png" alt=""/></a>
-              </ul>
-            </div>
-<!-- 
-            playing wit8h different ways to send form to email -->
-
-            <!-- <div class="medium-6 columns form">
-            <form action=”mailto:ellysecarter@yahoo.com”
-            method=”POST”
-            enctype=”multipart/form-data”
-            name=”EmailForm”>
-            Name:<br>
-            <input type=”text” size=”19″ name=”ContactName”><br>
-            <br>
-            Message:<br> <textarea name=”ContactCommentt” rows=”6″ cols=”20″>
-            </textarea><br>
-            <br> <input type=”submit” class="button expanded" value=”Submit”> 
-            </form>
-            </div> -->
-
-            <div class="medium-6 columns form">
-              <form action="mailto:ellysecarter@yahoo.com" method="post" enctype="text/plain">
-                <p>
-                  <label for="name">Enter Name: </label>
-                  <input type="text" name="name">
-                </p>
-                <p>
-                  <label for="email">Enter Email Address: </label>
-                  <input type="text" name="email">
-                </p>
-                <p>
-                  <label for="Message">Send me a message! </label>
-                  <textarea name="message" size="50"></textarea>
-                </p>
-                <input type="submit" class="button expanded" value="Send">
+              </div>
+  <!-- 
+              playing wit8h different ways to send form to email -->
+  
+              <!-- <div class="medium-6 columns form">
+              <form action=”mailto:ellysecarter@yahoo.com”
+              method=”POST”
+              enctype=”multipart/form-data”
+              name=”EmailForm”>
+              Name:<br>
+              <input type=”text” size=”19″ name=”ContactName”><br>
+              <br>
+              Message:<br> <textarea name=”ContactCommentt” rows=”6″ cols=”20″>
+              </textarea><br>
+              <br> <input type=”submit” class="button expanded" value=”Submit”> 
               </form>
+              </div> -->
+  
+              <div class="medium-6 columns form">
+                <form action="mailto:ellysecarter@yahoo.com" method="post" enctype="text/plain">
+                  <p>
+                    <label for="name">Enter Name: </label>
+                    <input type="text" name="name">
+                  </p>
+                  <p>
+                    <label for="email">Enter Email Address: </label>
+                    <input type="text" name="email">
+                  </p>
+                  <p>
+                    <label for="Message">Send me a message! </label>
+                    <textarea name="message" size="50"></textarea>
+                  </p>
+                  <input type="submit" class="button expanded" value="Send">
+                </form>
+              </div>
+  
+  
+              <!-- <div class="medium-6 columns form">
+                <label>Name
+                  <input type="text" placeholder="Name">
+                </label>
+                <label>Email
+                  <input type="text" placeholder="Email">
+                </label>
+                <label>
+                  Message
+                  <textarea placeholder="Message me!"></textarea>
+                </label>
+                <input type="submit" class="button expanded" value="Submit">
+              </div> -->
             </div>
+          </section>
 
-
-            <!-- <div class="medium-6 columns form">
-              <label>Name
-                <input type="text" placeholder="Name">
-              </label>
-              <label>Email
-                <input type="text" placeholder="Email">
-              </label>
-              <label>
-                Message
-                <textarea placeholder="Message me!"></textarea>
-              </label>
-              <input type="submit" class="button expanded" value="Submit">
-            </div> -->
-          </div>
         </div>
       </div>
     </div>

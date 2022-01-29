@@ -22,6 +22,11 @@
   justify-content: space-evenly;
 }
 
+div img {
+  border: 200px;
+  color: aqua;
+}
+
 .space-evenly {
   display: flex;
   justify-content: space-evenly;
@@ -53,4 +58,8 @@ h4 {
 
 h6 {
   text-align: center;
+}
+
+div nav {
+  justify-content: center;
 }
