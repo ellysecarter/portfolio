@@ -6,7 +6,7 @@
 }
 
 .thumbnail {
-  border-radius: 100px;
+  border-radius: 180px;
   border-color: #ffdd00;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .column {
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding-bottom: 30px;
 }
 
@@ -104,6 +104,16 @@ header a {
   transition: all 500ms;
 }
 
+#my-projects {
+  justify-content: space-around;
+  padding: 0 20px 0 40px;
+}
+
+
+.callout {
+  /* background-image: url("../images/header.png"); */
+
+}
 
 /* add media queries here */
 
