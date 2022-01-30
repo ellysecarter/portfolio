@@ -90,6 +90,7 @@ header a {
   font-weight: bolder;
 }
 
+
 .hover-box img:hover {
   transform: scale(2.2);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -97,7 +98,15 @@ header a {
 }
 
 
-
-
-
 /* add media queries here */
+
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  .hover-box {
+    /* this will be applied on any screen smaller than 575px */
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 0 100px;
+  }
+}
