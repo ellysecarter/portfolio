@@ -5,6 +5,11 @@
   font-size: 40px;
 }
 
+.thumbnail {
+  border-radius: 100px;
+  border-color: #ffdd00;
+}
+
 .lead {
   font-style: italic;
   font-size: 16px;
@@ -82,7 +87,9 @@ header div nav ul li a:hover {
   font-size:26px;
   transition: all 500ms;
   font-size-adjust: 20px;
+  text-decoration: underline;
 }
+
 
 header a {
   color: black;
